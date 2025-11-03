@@ -217,7 +217,20 @@ Edit `disease_solution_json.txt`:
 
 ## Screenshots
 
-*(Add screenshots of UI here in actual README)*
+*Landing Page*
+![WhatsApp Image 2025-10-31 at 15 25 03_793e1994](https://github.com/user-attachments/assets/31ac5ca2-d615-41c4-88ad-7a11c057b52c)
+![WhatsApp Image 2025-10-31 at 15 26 25_8c207b25](https://github.com/user-attachments/assets/be5c7a3b-268e-453d-9eef-24ef6ff70895)
+
+*Sign up,Sign in page*
+![WhatsApp Image 2025-10-31 at 15 27 27_fe2cba69](https://github.com/user-attachments/assets/939c3b6a-002f-44b5-906a-08b395794dea)
+![WhatsApp Image 2025-10-31 at 15 26 59_2064d94a](https://github.com/user-attachments/assets/5a50f473-4061-47af-a4d1-79bd8c421e2c)
+
+*Plant disease  page*
+![WhatsApp Image 2025-10-31 at 15 29 45_8702361b](https://github.com/user-attachments/assets/74bca28b-631f-4260-a283-e909227218c0)
+
+*Weather analysis page*
+![WhatsApp Image 2025-10-31 at 15 31 45_099e2cc8](https://github.com/user-attachments/assets/ffeefd41-bad1-4eac-97c1-db3577efeb3f)
+
 
 ---
 
