@@ -273,10 +273,10 @@ This project is licensed under the **MIT License** – see [LICENSE](LICENSE) fi
 
 ## Authors
 
-- **Rikk Bera** – Full-stack Developer & AI Engineer
-- **Piyush Mitra** – Full-stack Developer & AI Engineer
-- **Abhik Halder** – Full-stack Developer & AI Engineer
-- **Suprakash Saha** – Full-stack Developer & AI Engineer
+- **[Rikk Bera](https://github.com/Rikk-Bera)** – Full-stack Developer & AI Engineer  
+- **[Piyush Mitra](https://github.com/PiyushMitra)** – Full-stack Developer & AI Engineer  
+- **[Abhik Halder](https://github.com/abyy05)** – Full-stack Developer & AI Engineer  
+- **[Suprakash Saha](https://github.com/SuprakashSaha)** – Full-stack Developer & AI Engineer
 
 
 ---
