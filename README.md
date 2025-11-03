@@ -59,20 +59,22 @@
 ## Project Structure
 
 ```
+## Project Structure
+
+```text
 AgriCarePro/
-│
 ├── backend/
-│   ├── app.py                          # Main Flask server
-│   ├── plant-disease-model.pth         # Trained PyTorch model (ResNet9, 38 classes)
-│   ├── disease_solution_json.txt       # JSON mapping of diseases to treatment solutions
-│   ├── disease_classes.txt             # List of 38 disease class names (model output)
-│   ├── uploads/                        # Uploaded user images for disease prediction
+│   ├── app.py                                 # Main Flask server
+│   ├── plant-disease-model.pth                # Trained PyTorch model (ResNet9, 38 classes)
+│   ├── disease_solution_json.txt              # JSON mapping of diseases → treatment solutions
+│   ├── disease_classes.txt                    # List of 38 disease class names (model output)
+│   ├── uploads/                               # Uploaded user images for disease prediction
 │   │   ├── WhatsApp Image 2024-10-26...
 │   │   └── WhatsApp Image 2024-10-30...
-│   └── README.md                       # Backend-specific documentation
+│   └── README.md                              # Backend-specific documentation
 │
 ├── frontend/
-│   ├── public/                         # Static assets
+│   ├── public/                                # Static assets
 │   │   ├── abhik.png
 │   │   ├── background_leaf.jpg
 │   │   ├── features.jpg
@@ -109,17 +111,15 @@ AgriCarePro/
 │       │   ├── Signup.jsx
 │       │   └── weatherForecastPage.jsx
 │       │
-│       ├── api.js                          # API calls to backend
-│       ├── App.jsx                         # Root component
+│       ├── api.js                             # API calls to backend
+│       ├── App.jsx                            # Root component
 │       ├── App.css
 │       ├── index.css
-│       └── main.jsx                        # Entry point (React 18+)
+│       └── main.jsx                           # Entry point (React 18+)
 │
-├── .env                                # Environment variables (MongoDB, JWT, API keys)
+├── .env                                       # Environment variables (MongoDB, JWT, API keys)
 ├── README.md
-└── requirements.txt                    # Python dependencies (Flask, PyTorch, etc.)
-```
-
+└── requirements.txt                           # Python dependencies (Flask, PyTorch, etc.)
 ```
 
 ---
