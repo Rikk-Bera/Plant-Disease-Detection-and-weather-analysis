@@ -55,34 +55,71 @@
 
 ---
 
+```markdown
 ## Project Structure
 
 ```
 AgriCarePro/
 │
 ├── backend/
-│   ├── app.py                  # Main Flask server
-│   ├── plant-disease-model.pth # Trained PyTorch model
-│   ├── disease_solution_json.txt
-│   ├── disease_classes.txt
-│   └── uploads/                # Uploaded images
+│   ├── app.py                          # Main Flask server
+│   ├── plant-disease-model.pth         # Trained PyTorch model (ResNet9, 38 classes)
+│   ├── disease_solution_json.txt       # JSON mapping of diseases to treatment solutions
+│   ├── disease_classes.txt             # List of 38 disease class names (model output)
+│   ├── uploads/                        # Uploaded user images for disease prediction
+│   │   ├── WhatsApp Image 2024-10-26...
+│   │   └── WhatsApp Image 2024-10-30...
+│   └── README.md                       # Backend-specific documentation
 │
 ├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── Header.jsx
-│   │   │   ├── CurrentWeather.jsx
-│   │   │   ├── UpcomingWeather.jsx
-│   │   │   ├── WeatherImpact.jsx
-│   │   │   └── forecast_footer.jsx
-│   │   ├── pages/
-│   │   │   └── WeatherForecastPage.jsx
-│   │   └── App.jsx
-│   └── public/
+│   ├── public/                         # Static assets
+│   │   ├── abhik.png
+│   │   ├── background_leaf.jpg
+│   │   ├── features.jpg
+│   │   ├── rikk.jpg
+│   │   └── vite.svg
+│   │
+│   └── src/
+│       ├── assets/
+│       │   └── CSS/
+│       │       ├── AgriCarePro.css
+│       │       ├── Contributor.css
+│       │       ├── Header.css
+│       │       └── Weather_Forecast_css/
+│       │           ├── CurrentWeather.css
+│       │           ├── forecast_footer.css
+│       │           ├── UpcomingWeather.css
+│       │           └── WeatherImpact.css
+│       │
+│       ├── components/
+│       │   ├── AuthNav.jsx
+│       │   ├── Contributor.jsx
+│       │   ├── Header.jsx
+│       │   ├── Landingpage.jsx
+│       │   └── Weather_Forecast_JSX/
+│       │       ├── CurrentWeather.jsx
+│       │       ├── forecast_footer.jsx
+│       │       ├── UpcomingWeather.jsx
+│       │       └── WeatherImpact.jsx
+│       │
+│       ├── pages/
+│       │   ├── AgriCarePro.jsx
+│       │   ├── Login.jsx
+│       │   ├── Plantpage.jsx
+│       │   ├── Signup.jsx
+│       │   └── weatherForecastPage.jsx
+│       │
+│       ├── api.js                          # API calls to backend
+│       ├── App.jsx                         # Root component
+│       ├── App.css
+│       ├── index.css
+│       └── main.jsx                        # Entry point (React 18+)
 │
-├── .env                        # Environment variables
+├── .env                                # Environment variables (MongoDB, JWT, API keys)
 ├── README.md
-└── requirements.txt
+└── requirements.txt                    # Python dependencies (Flask, PyTorch, etc.)
+```
+
 ```
 
 ---
